@@ -14,6 +14,7 @@ export default {
         "secondary": "#c52aa5",
         "text": "#000000",
         "background": "#ffffff",
+        "background2": "#f5f0f0",
         "error": "#e51919",
       },
     },
