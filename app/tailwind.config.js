@@ -16,7 +16,7 @@ export default {
         "text": "#000000",
         "background": "#ffffff",
         "background2": "#f5f0f0",
-        "error": "#e51919",
+        "danger": "#e51919",
       },
     },
   },
