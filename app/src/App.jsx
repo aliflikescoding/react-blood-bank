@@ -4,6 +4,7 @@ import Sidebar from './sections/Sidebar';
 import InfoPendonor from './sections/InfoPendonor';
 import AnalisisKadaluarsa from './sections/AnalisisKadaluarsa';
 import Dashboard from './sections/Dashboard';
+import StokDarah from './sections/StokDarah';
 
 function App() {
 
@@ -13,12 +14,17 @@ function App() {
         <BrowserRouter>
             <Header />
             <div className='flex'>
-              <Sidebar />
+              <div className='w-[25%]'>
+                <Sidebar/>
+              </div>
+              <div className='w-[75%]'>
               <Routes>
+                <Route index element={<StokDarah />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/infopendonor" element={<InfoPendonor />} />
                 <Route path="/analisiskadaluarsa" element={<AnalisisKadaluarsa />} />
-            </Routes>
+              </Routes>
+              </div>
             </div>
         </BrowserRouter>
       </div>
