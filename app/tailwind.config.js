@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        manrope: ["Manrope", "sans-serif"],
       },
       colors: {
         "primary": "#ffa4a4",
