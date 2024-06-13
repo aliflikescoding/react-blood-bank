@@ -5,21 +5,22 @@ import InfoPendonor from './sections/InfoPendonor';
 import AnalisisKadaluarsa from './sections/AnalisisKadaluarsa';
 import Dashboard from './sections/Dashboard';
 import StokDarah from './sections/StokDarah';
+import Home from './sections/Home';
 
 function App() {
 
   return (
     <>
       <div>
+        <Header />
         <BrowserRouter>
-            <Header />
             <div className='flex'>
               <div className='w-[25%]'>
                 <Sidebar/>
               </div>
               <div className='w-[75%]'>
               <Routes>
-                <Route index element={<StokDarah />} />
+                <Route index element={<Home />}/>
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/infopendonor" element={<InfoPendonor />} />
                 <Route path="/analisiskadaluarsa" element={<AnalisisKadaluarsa />} />

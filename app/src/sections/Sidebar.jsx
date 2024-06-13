@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useState } from "react";
 
 const Sidebar = () => {
-  const [selectNum, setSelectNum] = useState(1);
+  const [selectNum, setSelectNum] = useState(null);
 
   return (
     <div className="py-8 px-[5rem] bg-background2 flex justify-center items-left gap-7 flex-col h-[92vh]">
