@@ -62,7 +62,7 @@ function Dashboard() {
         <div className="grid grid-rows-2 grid-flow-col gap-4">
           {
             getStock(fakeApi).map((stock, index) => (
-              <DataCardTwo key={index} text1={`${stock.title}`} text2={`${stock.amount}`} color={`${stock.amount < 5 ? "bg-danger" : "bg-primary"}`} />
+              <DataCardTwo key={index} text1={`${stock.title}`} text2={`${stock.amount}`} color={`${stock.amount < 5 ? "bg-danger text-background" : "bg-primary"}`} />
             ))
           }
         </div>

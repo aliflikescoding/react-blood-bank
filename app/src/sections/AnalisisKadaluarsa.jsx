@@ -17,7 +17,7 @@ const AnalisisKadaluarsa = () => {
         <h1 className="text-2xl font-bold">Analisis Kadaluarsa</h1>
         <div className="grid grid-rows-1 grid-flow-col gap-4">
           <DataCard text1="Total" text2={`${fakeApiTwo.length}`} color="bg-primary"/>
-          <DataCard text1="Kadaluarsa Dalam 7 Hari" text2={`${fakeApiTwo.length}`} color="bg-danger"/>
+          <DataCard text1="Kadaluarsa Dalam 7 Hari" text2={`${fakeApiTwo.length}`} color="bg-danger text-background"/>
         </div>
       </div>
       <div className="px-12">

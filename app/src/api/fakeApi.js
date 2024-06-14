@@ -54,15 +54,6 @@ const fakeApi = [
     jenisKelamin: "Male"
   },
   {
-    id: 8,
-    tipeDarah: "AB+",
-    tanggalDonor: "06/06/2024",
-    namaPendonor: "Emma Taylor",
-    jumlahKantong: 1,
-    expiredDarah: "20/06/2024",
-    jenisKelamin: "Female"
-  },
-  {
     id: 9,
     tipeDarah: "A+",
     tanggalDonor: "13/06/2024",
@@ -115,15 +106,6 @@ const fakeApi = [
     jumlahKantong: 2,
     expiredDarah: "20/06/2024",
     jenisKelamin: "Male"
-  },
-  {
-    id: 16,
-    tipeDarah: "AB+",
-    tanggalDonor: "06/06/2024",
-    namaPendonor: "Isabella Wilson",
-    jumlahKantong: 1,
-    expiredDarah: "20/06/2024",
-    jenisKelamin: "Female"
   },
   {
     id: 17,
@@ -180,15 +162,6 @@ const fakeApi = [
     jenisKelamin: "Male"
   },
   {
-    id: 24,
-    tipeDarah: "AB+",
-    tanggalDonor: "06/06/2024",
-    namaPendonor: "Evelyn Anderson",
-    jumlahKantong: 1,
-    expiredDarah: "20/06/2024",
-    jenisKelamin: "Female"
-  },
-  {
     id: 25,
     tipeDarah: "A+",
     tanggalDonor: "13/06/2024",
@@ -241,15 +214,6 @@ const fakeApi = [
     jumlahKantong: 2,
     expiredDarah: "20/06/2024",
     jenisKelamin: "Male"
-  },
-  {
-    id: 32,
-    tipeDarah: "AB+",
-    tanggalDonor: "06/06/2024",
-    namaPendonor: "Madison Davis",
-    jumlahKantong: 1,
-    expiredDarah: "20/06/2024",
-    jenisKelamin: "Female"
   },
   {
     id: 33,
@@ -306,15 +270,6 @@ const fakeApi = [
     jenisKelamin: "Male"
   },
   {
-    id: 40,
-    tipeDarah: "AB+",
-    tanggalDonor: "06/06/2024",
-    namaPendonor: "Olivia Martinez",
-    jumlahKantong: 1,
-    expiredDarah: "20/06/2024",
-    jenisKelamin: "Female"
-  },
-  {
     id: 41,
     tipeDarah: "A+",
     tanggalDonor: "13/06/2024",
@@ -367,15 +322,6 @@ const fakeApi = [
   jumlahKantong: 2,
   expiredDarah: "20/06/2024",
   jenisKelamin: "Male"
-  },
-  {
-  id: 48,
-  tipeDarah: "AB+",
-  tanggalDonor: "06/06/2024",
-  namaPendonor: "Charlotte Taylor",
-  jumlahKantong: 1,
-  expiredDarah: "20/06/2024",
-  jenisKelamin: "Female"
   },
   {
   id: 49,
@@ -441,15 +387,6 @@ const fakeApi = [
   jenisKelamin: "Male"
   },
   {
-  id: 56,
-  tipeDarah: "AB+",
-  tanggalDonor: "06/06/2024",
-  namaPendonor: "Emily Wilson",
-  jumlahKantong: 1,
-  expiredDarah: "20/06/2024",
-  jenisKelamin: "Female"
-  },
-  {
   id: 57,
   tipeDarah: "A+",
   tanggalDonor: "13/06/2024",
@@ -511,15 +448,6 @@ const fakeApi = [
   jumlahKantong: 2,
   expiredDarah: "20/06/2024",
   jenisKelamin: "Male"
-  },
-  {
-  id: 64,
-  tipeDarah: "AB+",
-  tanggalDonor: "06/06/2024",
-  namaPendonor: "Elizabeth Anderson",
-  jumlahKantong: 1,
-  expiredDarah: "20/06/2024",
-  jenisKelamin: "Female"
   },
   {
   id: 65,
