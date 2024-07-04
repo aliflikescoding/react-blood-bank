@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">A memory card game Project in ReactJS made using VITE and styled using Tailwind</h1>
+  <h1 align="center">A blood bank andmin pannel Project in ReactJS made using VITE and styled using Tailwind</h1>
 </p>
 
 ## Output
